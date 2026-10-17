@@ -1,0 +1,26 @@
+{
+  "kind": "local-foundation-only",
+  "completedAt": "2026-10-17T00:55:09.210508+00:00",
+  "runtime": "v24.19.0",
+  "commands": [
+    {
+      "command": "npm run check",
+      "exitCode": 0,
+      "tests": 11,
+      "pinnedEngineConsumerContract": true
+    },
+    {
+      "command": "node --check on all JavaScript modules",
+      "exitCode": 0,
+      "modules": 11
+    }
+  ],
+  "scope": "Profiles, exact shares where applicable, upstream registry/security status, pinned actual engine artifact",
+  "notVerified": [
+    "browser UI",
+    "live auth/encryption/database",
+    "payments/signing/chain",
+    "CI/merge/deployment",
+    "independent review"
+  ]
+}
