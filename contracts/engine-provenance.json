@@ -1,0 +1,15 @@
+{
+  "purpose": "read-only exact shared engine release artifact for offline consumer contract tests; do not fork",
+  "repository": "neophilism/Distributed-Governance-Engine",
+  "sourceCommit": "d60d856da46768f3ad5f3c0ac1ad0b1a78b9a8a6",
+  "artifact": "engine-foundation.tgz",
+  "sha256": "51de27c826b945f6273526b198c4b955fa7be91417fc69d689b8451396b429df",
+  "sourceFiles": {
+    "package.json": "dff75a58ab5109f0b9eee73ee7b0d034dfc8b856cbe00b59cb7936c535ea8fcf",
+    "src/documents.mjs": "c8c3678d6af256f9bf0472740f2c1ba1c845b60a0d829f508570847b158e5c9b",
+    "src/governance.mjs": "fc7cdd21efa38fb278eee5872d29a80f07702199365064f6fb4fc2793af574b5",
+    "src/index.mjs": "12280c89b523890c955e32ad88b43b9835ab5543bcb56f61bf01d0055a34a2d7",
+    "src/integrity.mjs": "26c809b055be86ff4abb9a4804efc3e95377968fa9e052476e2d477fc89845c1",
+    "src/numbering.mjs": "7ca0227152ac2a9748ee32678dfb0d23ddc5d0f2403362025e2f511164bb10ca"
+  }
+}
