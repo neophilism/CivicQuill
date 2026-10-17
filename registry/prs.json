@@ -4,13 +4,15 @@
   "roadmapVersion": 2,
   "planVerified": true,
   "plannedPrCount": 14,
-  "observedAt": "2026-10-17T00:42:26Z",
+  "observedAt": "2026-10-17T02:52:12.307Z",
   "units": [
     {
       "id": "LEG-001",
       "title": "Legislation application foundation",
       "origin": "original",
-      "prs": [],
+      "prs": [
+        1
+      ],
       "dependsOn": [],
       "externalDependencies": [
         {
@@ -27,7 +29,7 @@
         "Consumer profile tests and shared registry validation."
       ],
       "specification": "docs/prs/LEG-001.md",
-      "implementationStatus": "foundation-partial",
+      "implementationStatus": "implemented",
       "operationalAcceptance": "unverified"
     },
     {
@@ -404,5 +406,18 @@
       "operationalAcceptance": "unverified"
     }
   ],
-  "pullRequests": []
+  "pullRequests": [
+    {
+      "id": 4896654810,
+      "number": 1,
+      "title": "LEG-001: Establish CivicQuill and shared engine contracts",
+      "state": "open",
+      "url": "https://github.com/neophilism/CivicQuill/pull/1",
+      "createdAt": "2026-10-17T02:50:36Z",
+      "updatedAt": "2026-10-17T02:50:36Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "draft": false
+    }
+  ]
 }
